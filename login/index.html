@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            color: aliceblue;
+        }
+        article{
+            background-color: black;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            text-align: center;
+            line-height: 1.5;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Firebase App with Authentication with Social Networks">
+    <title>Login Firebase - Social Networks</title>
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="epa.png" />
+    <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="https://matriz-teletrabajo-utc.web.app/lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <h1 style="color: black; text-align: center;">Sign in to be able to use my list of proyects</h1>
+    <article>
+        <h2>Sign in with you E-mail and password</h2>
+        <form action="#" method="post" class="p-4 p-md-5 card rounded-x1">
+        <input required placeholder="Email" type="email" id="email" name="email" class="form-control" />
+        <input placeholder="Password" type="password" id="password" class="form-control mt-2" />
+            <div class="col-12 col-md-12 mt-4">
+                <button id="sign-in-2" type="button" class="btn btn-primary w-100">Sign In</button>
+                </form>
+            </div>
+    </article>
+<article>
+<h2>Sign in with Google</h2>
+         <a id="sign-in-button" class="btn bg-googleplay mt-4 text-white w-100" href="#" style="color: aliceblue;">Google</a>
+</article>
+</body>
+
+</html>
